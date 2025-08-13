@@ -1,7 +1,7 @@
 import java.awt.*;
 import javax.swing.*;
 
-public class ToDoApp extends JFrame {
+public class ToDoApp extends JFrame{
     private DefaultListModel<String> taskListModel;
     private JList<String> taskList;
     private JTextField taskInputField;
@@ -84,3 +84,4 @@ public class ToDoApp extends JFrame {
         });
     }
 }
+
